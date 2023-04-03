@@ -1,3 +1,6 @@
+Original.ipynb : original code for model architecture modification training set separated to (80 training set & 20 validation set)
+Final result.ipynb : the final model training on all the training set data, the test data set doesn't has label, it is all labeled as '1'
+
 Introduction:
 In this article, we will discuss a binary classification problem using a deep learning model. The dataset used in this study does not have labels for the test set, so we assume all the test labels to be 1. Due to this assumption, the confusion matrix accuracy is approximately 0.5. We trained our model using Google Colab with Keras. We were able to improve the accuracy on the validation set to 0.888 by adding a Leaky ReLU activation function and an additional layer to the training model.
 
